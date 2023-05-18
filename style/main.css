@@ -6,7 +6,7 @@
     --background: linear-gradient(to right, #68bde1, #a1abf9);
 
     --fontTitle: 2.5em;
-    --fontLabel: 1.5rempx;
+    --fontLabel: 1.5rem;
 }
 /* linear-gradient(0.35turn, #17a4df,  #469aeb, #7f8efa) */
 /* linear-gradient(to right, #1cb9fc, #b293fb); */
@@ -55,6 +55,10 @@ body {
         text-align: center;
         padding-top: 45%;
     }
+    #load1 span {
+        font-weight: bolder;
+        font-size: 1.4rem;
+    }
     .sect2 h3 {
         margin-top: 50px;
         color: #52388d;
@@ -66,14 +70,15 @@ body {
     .sect2 p {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
-        font-size: var(--fontLabel);
+        font-size: 1.3rem;
         color: #52388d;
-        font-weight: 800;
+        font-weight: 800;        
     }
     .sect2 .btn {
         padding: 1.3rem 0rem;
         font-size: var(--fontLabel);
         font-weight: 800;
+        letter-spacing: 1px;
     }
     .sect2 .btn-primary{
         border-radius: 4rem;
