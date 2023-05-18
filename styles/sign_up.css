@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+}
+.container {
+    background-color: #e3bdff;
+    border: 4px gray;
+    height: fit-content;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    
+}
+
+.account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    margin-top: 80px;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        padding: 10px 40px 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 80%;
+        padding: 10px 40px 10px;
+    }
+    .btn.btn-primary{
+        padding: 2px 0px 2px;
+    }
+}
