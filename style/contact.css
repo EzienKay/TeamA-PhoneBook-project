@@ -1,0 +1,83 @@
+body {
+    margin: 30px;
+    /* justify-items: center;
+    border: none;
+    padding: 50px 50px 50px 500px; */
+}
+
+#contact-container {
+    /* border: 1px solid red; */
+    background: linear-gradient(to right, #98c6fa, #97b5fa);
+    width: 240px;
+    height: 180px;
+    padding: 15px 0px 0px 15px;
+    border-radius: 30px;
+    box-shadow: 0px 3px 2px 0px grey;
+}
+
+#person-name {
+    border: none;
+    width: 170px;
+    height: 25px;
+    box-shadow: 0px 3px 2px 0px grey;
+}
+
+#person-number {
+    border: none;
+    width: 170px;
+    height: 25px;
+    box-shadow: 0px 3px 2px 0px grey;
+}
+
+
+#person-contact {
+    background: #654aa8;
+    color: white;
+    font-weight: 500px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 0px 0px 0px 20px;
+    box-shadow: 0px 3px 2px 0px grey;
+}
+
+#contact-inner {
+    margin: 5px 0px 0px 20px;
+}
+
+#blank {
+    margin: 5px 0px 0px 20px;
+    box-shadow: 0px 2px 2px 0px grey;
+    border: none;
+    width: 220px;
+}
+
+#rosie1 {
+    background: linear-gradient(to right, #98c6fa, #97b5fa);
+    display: flex;
+    grid-column-gap: 100px;
+    width: 300px;
+    margin: 40px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 2px 0px grey;
+}
+
+#rosie2 {
+    display: flex;
+    grid-column-gap: 100px;
+    margin: 5px 0px 0px 20px;
+}
+
+#rosie3 {
+    display: flex;
+    grid-column-gap: 100px;
+    margin: 5px 0px 0px 20px;
+}
+
+#rosie4 {
+    display: flex;
+    grid-column-gap: 100px;
+    margin: 5px 0px 0px 20px;
+}
