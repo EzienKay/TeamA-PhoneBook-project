@@ -1,21 +1,49 @@
+:root {
+    --primary-color: #38005a;
+    --secondary-color: #9567ff;
+    --boxShadow: 0px 2px 4px 0px rgba(128, 128, 128, 0.5);
+    --fontFamily: Arial, Helvetica, sans-serif;
+    --background: linear-gradient(to right, #68bde1, #a1abf9);
+
+    --fontTitle: 2.5em;
+    --fontLabel: 1.5rem;
+}
+
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 body {
+    background-color: var(--secondary-color) ;
+    font-family: var(--fontFamily);
     height: 100vh;
     width: 100%;
 }
 .container {
-    background-color: #e3bdff;
+    background-image: var(--background) ;
+    box-shadow: var(--boxShadow);
     border: 4px gray;
     height: fit-content;
-    width: 40%;
+    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center; 
     
+}
+
+h3 {
+    
+    color: #52388d;
+    font-size: ;
+    font-weight: 900;
+    text-shadow: 1px 2px #e5f0f5;
+    
+}
+
+p, h2, label {
+    font-family: var(--fontFamily);
 }
 
 .account {
@@ -26,10 +54,21 @@ body {
     margin-top: 80px;
 }
 
+  .btn-primary{
+        border-radius: 4rem;
+        background-color: #7D5DCA;
+        width: 10rem;
+        box-shadow: 0px 3px 10px 0px #33333396;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
 @media only screen and (min-width: 600px) {
     .container {
         padding: 10px 40px 10px;
     }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -38,6 +77,8 @@ body {
         padding: 10px 40px 10px;
     }
     .btn.btn-primary{
-        padding: 2px 0px 2px;
+        padding: 2px 1px 2px;
+        display: block;
+        margin: 0 auto;
     }
 }
