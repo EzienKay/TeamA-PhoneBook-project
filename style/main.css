@@ -20,7 +20,6 @@
 
 body {
     background-image: var(--background) ;
-    font-family: var(--fontFamily);
 }
 
 #preload {
