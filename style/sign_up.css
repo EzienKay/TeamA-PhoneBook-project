@@ -4,7 +4,7 @@
     --boxShadow: 0px 2px 4px 0px rgba(128, 128, 128, 0.5);
     --fontFamily: Arial, Helvetica, sans-serif;
     --background: linear-gradient(to right, #68bde1, #a1abf9);
-
+    --textColor: #38005a;
     --fontTitle: 2.5em;
     --fontLabel: 1.5rem;
 }
@@ -15,13 +15,13 @@
     margin: 0;
 }
 body {
-    background-color: var(--secondary-color) ;
+    background: var(--background) ;
     font-family: var(--fontFamily);
     height: 100vh;
     width: 100%;
 }
 .container {
-    background-image: var(--background) ;
+    background: rgba(228, 228, 228, 0.3);
     box-shadow: var(--boxShadow);
     border: 4px gray;
     height: fit-content;
@@ -35,8 +35,8 @@ body {
 
 h3 {
     
-    color: #52388d;
-    font-size: ;
+    color: var(--textColor);
+    font-size:var(--fontTitle) ;
     font-weight: 900;
     text-shadow: 1px 2px #e5f0f5;
     
@@ -56,7 +56,7 @@ p, h2, label {
 
   .btn-primary{
         border-radius: 4rem;
-        background-color: #7D5DCA;
+        background-color: #9567ff;
         width: 10rem;
         box-shadow: 0px 3px 10px 0px #33333396;
         display: flex;
