@@ -25,8 +25,17 @@ body {
     padding: 50px 50px 50px 500px; */
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#main-inner {
+    max-width: fit-content;
+}
+
 #contact-container {
-    background: linear-gradient(to right, #68bde1, #a1abf9);
+    background: rgba(255, 255, 255, 0.2);
     width: 240px;
     height: 180px;
     padding: 15px 0px 0px 15px;
@@ -73,11 +82,11 @@ body {
 }
 
 #rosie {
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 #rosie1 {
-    background: linear-gradient(to right, #68bde1, #a1abf9);
+    background: rgba(255, 255, 255, 0.2);
     display: flex;
     grid-column-gap: 100px;
     width: 320px;
@@ -89,14 +98,24 @@ body {
 #rosie2 {
     display: flex;
     grid-column-gap: 100px;
+    padding: 0px 0px 0px 10px;
 }
 
 #rosie3 {
     display: flex;
     grid-column-gap: 100px;
+    padding: 0px 0px 0px 10px;
 }
 
 #rosie4 {
     display: flex;
     grid-column-gap: 100px;
+    padding: 0px 0px 0px 10px;
 }
+
+/* @media screen and (max-width:700px) {
+    label {
+        color: red;
+    }
+    
+} */
