@@ -4,7 +4,7 @@
     --boxShadow: 0px 2px 4px 0px rgba(128, 128, 128, 0.5);
     --fontFamily: Arial, Helvetica, sans-serif;
     --textColor: #38005a;
-    --background: linear-gradient(to right, #68bde1, #a1abf9);
+    --background: linear-gradient(to right, #1cb9fc, #b293fb);
 
     --fontTitle: 2.5em;
     --fontLabel: 1.5rem;
@@ -82,9 +82,9 @@ main {
     width: 220px;
 }
 
-#rosie {
-    /* margin: 10px; */
-}
+/* #rosie {
+    margin: 10px;
+} */
 
 #rosie1 {
     display: flex;
