@@ -1,6 +1,7 @@
 :root {
     --primary-color: #38005a;
     --secondary-color: #9567ff;
+    --textColor: #38005a;
     --boxShadow: 0px 2px 4px 0px rgba(128, 128, 128, 0.5);
     --fontFamily: Arial, Helvetica, sans-serif;
     --background: linear-gradient(to right, #68bde1, #a1abf9);
@@ -31,15 +32,44 @@ body {
     background-image: var(--background);
     /* background: #000 url(Image/logo-project.png)  center center; */
 }
-#preload h3 {
-    margin-top: 50px;
-    color: #52388d;
+#preload h3, .sect2 h3 {
+    margin-top: 15px;
+    color: var(--textColor);
     font-size: var(--fontTitle);
-    font-weight: 900;
+    font-weight: 800;
     text-shadow: 1px 2px #e5f0f5;
+    padding-left: 2rem;
     
 }
+#load1 {
+    text-align: center;
+    padding-top: 12%; 
+}
 
+#load1 span {
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.sect2 p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+    color: var(--textColor);
+    font-weight: 500;        
+}
+.sect2 .btn {
+    padding: 0.5rem 0rem;
+    font-size: var(--fontLabel);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.sect2 .btn-primary{
+    border-radius: 4rem;
+    background-color: #9567ff;
+    width: 13rem;
+    box-shadow: 0px 3px 10px 0px #33333396;
+}
 
 /* .sect2 .btn {
     padding: 0.8rem 0rem;
@@ -50,39 +80,15 @@ body {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    #load1 {
-        text-align: center;
-        padding-top: 45%;
+    #load1, #preload {
+        padding-top: 45%;         
     }
-    #load1 span {
-        font-weight: bolder;
-        font-size: 1.4rem;
-    }
-    .sect2 h3 {
-        margin-top: 50px;
-        color: #52388d;
-        font-size: var(--fontTitle);
-        font-weight: 900;
-        text-shadow: 1px 2px #e5f0f5;
-        padding-left: 2rem;
-    }
-    .sect2 p {
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-        font-size: 1.3rem;
-        color: #52388d;
-        font-weight: 800;        
+     
+    .sect2 .btn-primary{
+        width: 22rem;       
     }
     .sect2 .btn {
-        padding: 1.3rem 0rem;
-        font-size: var(--fontLabel);
-        font-weight: 800;
-        letter-spacing: 1px;
+        padding: 0.7rem 0rem;       
     }
-    .sect2 .btn-primary{
-        border-radius: 4rem;
-        background-color: #7D5DCA;
-        width: 25rem;
-        box-shadow: 0px 3px 10px 0px #33333396;
-    }
+   
   }

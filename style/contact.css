@@ -3,6 +3,7 @@
     --secondary-color: #9567ff;
     --boxShadow: 0px 2px 4px 0px rgba(128, 128, 128, 0.5);
     --fontFamily: Arial, Helvetica, sans-serif;
+    --textColor: #38005a;
     --background: linear-gradient(to right, #68bde1, #a1abf9);
 
     --fontTitle: 2.5em;
@@ -35,7 +36,7 @@ main {
 }
 
 #contact-container {
-    background: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     width: 240px;
     height: 180px;
     padding: 15px 0px 0px 15px;
@@ -86,7 +87,6 @@ main {
 }
 
 #rosie1 {
-    background: rgba(255, 255, 255, 0.2);
     display: flex;
     grid-column-gap: 100px;
     width: 320px;
