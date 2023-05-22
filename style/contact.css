@@ -26,6 +26,15 @@ body {
     padding: 50px 50px 50px 500px; */
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#main-inner {
+    max-width: fit-content;
+}
+
 #contact-container {
     background-color: rgba(255, 255, 255, 0.2);
     width: 240px;
@@ -74,11 +83,10 @@ body {
 }
 
 #rosie {
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 #rosie1 {
-    background-color: rgba(255, 255, 255, 0.2);
     display: flex;
     grid-column-gap: 100px;
     width: 320px;
@@ -90,14 +98,24 @@ body {
 #rosie2 {
     display: flex;
     grid-column-gap: 100px;
+    padding: 0px 0px 0px 10px;
 }
 
 #rosie3 {
     display: flex;
     grid-column-gap: 100px;
+    padding: 0px 0px 0px 10px;
 }
 
 #rosie4 {
     display: flex;
     grid-column-gap: 100px;
+    padding: 0px 0px 0px 10px;
 }
+
+/* @media screen and (max-width:700px) {
+    label {
+        color: red;
+    }
+    
+} */
