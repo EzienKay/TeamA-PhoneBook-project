@@ -15,7 +15,7 @@ const myTimer = setTimeout(preloads, 3500);
 const preload = document.querySelector('#preload');
 
 function preloads() {
-  preload.style.setProperty('visibility', 'hidden', 'important');
+  preload.className += " hidden";
 }
 
 
