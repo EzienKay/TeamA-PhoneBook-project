@@ -85,7 +85,7 @@ body {
 
 @keyframes preload {
     0% {  opacity: 1;  }
-    100% { opacity: 0;  }   
+    100% { opacity: 0; }   
 }
 
 @keyframes ball {

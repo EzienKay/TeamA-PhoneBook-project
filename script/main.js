@@ -3,10 +3,9 @@ window.addEventListener('load', () => {
   const preload = document.querySelector('#preload');
   setTimeout( function() {
     preload.style.display= "none";
+    preload.style.visibility= "hidden";
   }, 3500 );
 });
-
-
 
 
 function storeFormData() {
