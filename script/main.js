@@ -1,6 +1,6 @@
 //function for preloader
 window.addEventListener('load', () => {
-  const preload = document.querySelector('.preload');
+  const preload = document.querySelector('#preload');
   setTimeout( function() {
     preload.style.display= 'none';
     // preload.style.setProperty('visibility', 'hidden', 'important');

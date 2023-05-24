@@ -153,10 +153,14 @@ body {
     
          
     .sect2 .btn-primary{
-        width: 22rem;       
+        width: 18rem;       
     }
     .sect2 .btn {
-        padding: 0.7rem 0rem;       
+        padding: 0.5rem 0rem;       
+    }
+
+    .sect2 h3{
+        font-size: var(--fontLabel) ;
     }
 
     /* for preload  */
