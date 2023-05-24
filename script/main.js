@@ -1,14 +1,30 @@
 //function for preloader
-document.addEventListener('load', () => {
-   const preload = document.querySelector('#preload');
-   setTimeout( function() {
+// window.addEventListener('load', () => {
+  //  const preload = document.querySelector('#preload');
+  //  setTimeout( function() {
     // preload.className += " hidden";
     // preload.classList.add('hidden');
-    preload.style.display= 'none';
+    // preload.style.display= 'none';
+    // preload.style.background= 'green';
     // preload.style.setProperty('visibility', 'hidden', 'important');
-   }, 3500 );    
-});
+  //  }, 3500 );    
+// });
 
+// const lod =() =>{
+//   const preload = document.querySelector('#preload');
+//   setTimeout(() => {
+    
+//   }, 3500);
+//   preload.className += " hidden";
+//     preload.style.display= 'none';
+// }
+
+const myTimer = setTimeout(preloads, 3500);
+const preload = document.querySelector('#preload');
+
+function preloads() {
+  preload.style.display= 'none';
+}
 
 
 function storeFormData() {
