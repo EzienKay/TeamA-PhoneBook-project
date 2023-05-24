@@ -22,6 +22,10 @@
 body {
     background-image: var(--background) ;
 }
+.hidden {
+    display:none;
+    visibility:hidden;
+}
 
 
 /* start preload css */
@@ -160,7 +164,7 @@ body {
     }
 
     .sect2 h3{
-        font-size: var(--fontLabel) ;
+        font-size: 2rem ;
     }
 
     /* for preload  */
