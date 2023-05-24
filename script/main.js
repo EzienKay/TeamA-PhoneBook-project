@@ -2,10 +2,10 @@
 window.addEventListener('load', () => {
   const preload = document.querySelector('#preload');
   setTimeout( function() {
-    preload.className += " hidden";
+    // preload.className += " hidden";
     // preload.classList.add('hidden');
-    // preload.style.display= 'none';
-    // preload.style.setProperty('visibility', 'hidden', 'important');
+    preload.style.display= 'none';
+    preload.style.setProperty('visibility', 'hidden', 'important');
   }, 2500 );
 });
 
