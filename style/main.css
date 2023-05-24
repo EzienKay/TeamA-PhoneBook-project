@@ -40,7 +40,7 @@ body {
     background-image: var(--background);
     display: flex;
     justify-content: center; 
-    animation: preload .8s ease-out 2s;      
+    animation: prload .8s ease-out 2s;      
 }
 
 #preload h3 {
@@ -87,7 +87,7 @@ body {
     top: 127px;
 }
 
-@keyframes preload {
+@keyframes prload {
     0% {  opacity: 1;  }
     100% { opacity: 0; }   
 }
