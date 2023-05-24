@@ -36,7 +36,7 @@ body {
     background-image: var(--background);
     display: flex;
     justify-content: center; 
-    animation: preload .8s ease-out 3s;      
+    animation: preload .8s ease-out 2s;      
 }
 
 #preload h3 {
@@ -59,7 +59,7 @@ body {
     background: #6dd0fa;
     position: absolute;
     border-radius: 50%;
-    animation: ball 3s ease-out 0s;
+    animation: ball 2s ease-out 0s;
     left: 110px;
     top: 185px;
 }
@@ -78,7 +78,7 @@ body {
     background: #f521ad;
     position: absolute;
     border-radius: 50%;
-    animation: ball3 3s linear 0s;
+    animation: ball3 2s linear 0s;
     left: 80px;
     top: 127px;
 }
@@ -148,7 +148,7 @@ body {
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #load1, #preload {
-        padding-top: 35%;         
+        padding-top: 30%;         
     }
     
          

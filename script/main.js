@@ -1,10 +1,10 @@
 //function for preloader
 window.addEventListener('load', () => {
-  const preload = document.querySelector('#preload');
+  const preload = document.querySelector('.preload');
   setTimeout( function() {
-    preload.style.setProperty('display', 'none', 'important');
-    preload.style.setProperty('visibility', 'hidden', 'important');
-  }, 3500 );
+    preload.style.display= 'none', 'important';
+    // preload.style.setProperty('visibility', 'hidden', 'important');
+  }, 2500 );
 });
 
 
