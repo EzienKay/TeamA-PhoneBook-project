@@ -2,8 +2,8 @@
 window.addEventListener('load', () => {
   const preload = document.querySelector('#preload');
   setTimeout( function() {
-    preload.style.display= "none";
-    preload.style.visibility= "hidden";
+    preload.style.setProperty('display', 'none', 'important');
+    preload.style.setProperty('display', 'none', 'important');
   }, 3500 );
 });
 
