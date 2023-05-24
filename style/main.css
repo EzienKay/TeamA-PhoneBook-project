@@ -4,13 +4,14 @@
     --textColor: #38005a;
     --boxShadow: 0px 2px 4px 0px rgba(128, 128, 128, 0.5);
     --fontFamily: Arial, Helvetica, sans-serif;
-    --background: linear-gradient(to right, #68bde1, #a1abf9);
+    --background: linear-gradient(to right, #1cb9fc, #b293fb);
 
     --fontTitle: 2.5em;
     --fontLabel: 1.5rem;
 }
 /* linear-gradient(0.35turn, #17a4df,  #469aeb, #7f8efa) */
 /* linear-gradient(to right, #1cb9fc, #b293fb); */
+/* linear-gradient(to right, #68bde1, #a1abf9); */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -22,25 +23,98 @@ body {
     background-image: var(--background) ;
 }
 
+
+/* start preload css */
 #preload {
     text-align: center;
-    padding-top: 40%;
+    padding-top: 10%;
+    padding-left: 2rem;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 100;
     background-image: var(--background);
-    /* background: #000 url(Image/logo-project.png)  center center; */
+    display: flex;
+    justify-content: center; 
+    animation: preload .8s ease-out 2s;      
 }
-#preload h3, .sect2 h3 {
-    margin-top: 15px;
-    color: var(--textColor);
-    font-size: var(--fontTitle);
+
+#preload h3 {
+    font-size: 8rem;
+    position: relative;
+    top: 120px;
+    left: 85px;
+}
+
+
+.box {
+    height: 370px;
+    width: 100%;
+    position: relative;
+}
+
+.cycle {
+    width: 100px;
+    height: 100px;
+    background: #6dd0fa;
+    position: absolute;
+    border-radius: 50%;
+    animation: ball 2s ease-out 0s;
+    left: 110px;
+    top: 185px;
+}
+.cycle2 {
+    width: 85px;
+    height: 85px;
+    background: #9567ff;
+    position: absolute;
+    border-radius: 50%;;
+    left: 203px;
+    top: 155px;
+}
+.cycle3 {
+    width: 70px;
+    height: 70px;
+    background: #f521ad;
+    position: absolute;
+    border-radius: 50%;
+    animation: ball3 2s linear 0s;
+    left: 80px;
+    top: 127px;
+}
+
+@keyframes preload {
+    0% {  opacity: 1;  }
+    100% { opacity: 0; }   
+}
+
+@keyframes ball {
+    0% {   background: #f4770a; transform: scale(1);  }
+    25% {  background: #24ed0e; transform: scale(1.1);  }
+    50% {  background: #d5e70b; transform: scale(1.4);  }
+    75% {  background: #04c0f9; transform: scale(1.1);  }
+    100% { background: #6dd0fa; transform: scale(1);  }   
+}
+
+ @keyframes ball3 {
+    0% {  transform: translateY(-300px);  }
+    100% { transform: translateY(0);  }   
+} 
+
+/* end pre load css */
+
+#preload h3, .sect2 h3 {    
+    color: var(--textColor);    
     font-weight: 800;
-    text-shadow: 1px 2px #e5f0f5;
-    padding-left: 2rem;
-    
+    text-shadow: 1px 2px #e5f0f5;   
 }
+
+.sect2 h3{
+    padding-left: 2rem;
+    margin-top: 15px;
+    font-size: var(--fontTitle);
+}
+
 #load1 {
     text-align: center;
     padding-top: 12%; 
@@ -71,24 +145,41 @@ body {
     box-shadow: 0px 3px 10px 0px #33333396;
 }
 
-/* .sect2 .btn {
-    padding: 0.8rem 0rem;
-    font-size: 1rem;
-    font-weight: 800;
-} */
-
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     #load1, #preload {
-        padding-top: 45%;         
+        padding-top: 30%;         
     }
-     
+    
+         
     .sect2 .btn-primary{
-        width: 22rem;       
+        width: 18rem;       
     }
     .sect2 .btn {
-        padding: 0.7rem 0rem;       
+        padding: 0.5rem 0rem;       
+    }
+
+    .sect2 h3{
+        font-size: var(--fontLabel) ;
+    }
+
+    /* for preload  */
+
+    #preload h3 {
+        font-size: 3.5rem;
+        position: relative;
+        top: 300px;
+        left: 0;
+    }
+
+    #preload {
+        padding-left: 0;
+    }
+
+    .box {
+        height: 370px;
+        width: 350px;
+        position: relative;
     }
    
   }

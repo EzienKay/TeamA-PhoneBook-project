@@ -1,10 +1,11 @@
 :root {
     --primary-color: #38005a;
     --secondary-color: #9567ff;
+    --textColor: #38005a;
     --boxShadow: 0px 2px 4px 0px rgba(128, 128, 128, 0.5);
     --fontFamily: Arial, Helvetica, sans-serif;
-    --background: linear-gradient(to right, #68bde1, #a1abf9);
-    --textColor: #38005a;
+    --background: linear-gradient(to right, #1cb9fc, #b293fb);
+
     --fontTitle: 2.5em;
     --fontLabel: 1.5rem;
 }
@@ -14,22 +15,25 @@
     padding: 0;
     margin: 0;
 }
+
+
 body {
     background: var(--background) ;
     font-family: var(--fontFamily);
-    height: 100vh;
-    width: 100%;
+    /* height: 100vh; */
+    width: 100%; 
 }
 .container {
     background: rgba(228, 228, 228, 0.3);
     box-shadow: var(--boxShadow);
     border: 4px gray;
     height: fit-content;
-    width: 35%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center; 
+    border-radius: 20px;
     
 }
 
@@ -37,8 +41,10 @@ h3 {
     
     color: var(--textColor);
     font-size:var(--fontTitle) ;
-    font-weight: 900;
+    font-weight: 800;
     text-shadow: 1px 2px #e5f0f5;
+    padding-left: 2rem;
+    margin-top: 15px;
     
 }
 
@@ -51,7 +57,7 @@ p, h2, label {
     justify-content: center;
     align-items: center;
     align-content: center; 
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
   .btn-primary{
