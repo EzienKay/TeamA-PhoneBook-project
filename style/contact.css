@@ -63,6 +63,7 @@ main {
 
 #create-contact {
     width: 100%;
+    cursor: pointer;
 }
 
 #contact-image {
